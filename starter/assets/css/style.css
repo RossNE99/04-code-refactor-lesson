@@ -1,6 +1,6 @@
 /* Apply box-sizing to all elements */
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
     padding: 0;
     margin: 0;
 }
@@ -19,13 +19,13 @@ header {
 
     /* Fix the header at the top of the page */
     position: fixed;
-    width: 100%;
-    z-index: 99;
+    width: 100%; /* Fix the header position */
+    z-index: 99; /* Ensure the header appears above other elements */
 }
 
 /* Styling for the header's h1 element in the header */
 header h1 {
-    display: inline-block;
+    display: inline-block;  /* Display the header text as a block element */
     font-size: 48px;
 }
 
@@ -51,7 +51,7 @@ header nav ul li {
 /* Styling for links */
 a {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none; /* Remove default underline for links */
 }
 
 /* Styling for paragraphs */
@@ -64,21 +64,21 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    object-fit: cover;
+    object-fit: cover; /* Ensure the image covers the entire container */
 
-    position: relative;     /* <--- fixing image underlap pt1 */
-    top: 96px;
+    position: relative;     /* <--- fixing image underlap pt1 ---- Set relative positioning for proper stacking context */
+    top: 96px; /* Offset to prevent content from overlapping with the fixed header when scrolled to the top of the page */
 }
 
 /* fixing image underlap pt 2*/
 .mainContent, .sidebar {
-    margin-top: 92px;
+    margin-top: 92px; /* Add margin to the top of main content and sidebar to avoid overlap with the heroimage */
 }
 
 /* Float utility classes */
 .float-left {
-    float: left;
-    margin-right: 25px;
+    float: left; /* Float an element to the left */
+    margin-right: 25px; /* Add margin to the right of the floated element */
 }
 
 .float-right {
@@ -97,12 +97,12 @@ p {
 .sidebar {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
-    float: right;
+    clear: both;  /* Clear the floated elements */
+    float: right; /* Float the sidebar to the right */
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    background-color: #2589bd;
+    background-color: #2589bd; /* Set background color for the sidebar */
 }
 
 /* Styling for items in the sidebar */
@@ -113,13 +113,13 @@ p {
 
 .sidebarItem h3 {
     margin-bottom: 10px;
-    text-align: center;
+    text-align: center;  /* Center-align the text within sidebar item headings */
 }
 
 .sidebarItem img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 150px; /* Set maximum width for images within sidebar items */
 }
 
 /* Styling for main content cards */
@@ -133,18 +133,18 @@ p {
 }
 
 .mainContentCard img {
-    max-height: 200px;
+    max-height: 200px; /* Set maximum height for images within main content cards */
 }
 
 .mainContentCard h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 36px;  /* Set font size for main content card headings */
 }
 
 /* Styling for the footer */
 footer {
     padding: 30px;
-    clear: both;
+    clear: both; /* Clear the floated elements */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     text-align: center;
 }
