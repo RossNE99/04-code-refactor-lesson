@@ -36,10 +36,10 @@ To get the development environment running:
 There is no special requirements for end users. Simply visit [here](https://github.com/RossNE99/Horiseon-Code-Refactoring) to view the webpage. Enable your screen reader to explore accessability features.
 
 ## Features
-- **Image Alt Text:** Image alt text: All images now have the alt attributes added to them, this will help with SEO and will be essential for users who require assistive technology.
-- **Improved HTML Structure:** Improved HTML Structure: Substituted generic container elements and class names with relevant semantic elements and appropriate class names.
-- **Page Headings:** Page Headings: All page titles and headings run in a logical, sequential order.
-- **Fixed Navber:** Fixed Navber: The navbar is now fixed to the top of the page this is useful for accessibility additionally all the links in the nav bar now work.
+- **Image Alt Text:** All images now have the alt attributes added to them, this will help with SEO and will be essential for users who require assistive technology.
+- **Improved HTML Structure:** Substituted generic container elements and class names with relevant semantic elements and appropriate class names.
+- **Page Headings:** All page titles and headings run in a logical, sequential order.
+- **Fixed Navber:** The navbar is now fixed to the top of the page this is useful for accessibility additionally all the links in the nav bar now work.
 
 ## How to contribute
 1. Fork this repository
@@ -64,8 +64,8 @@ The following image shows the web application's appearance and functionality:
 
 
 ## Credits 
-Horiseon Social Solution Services, Inc - Orignal Source Code
-Ross - Refactored Source Code
+- **Horiseon** Social Solution Services, Inc - Orignal Source Code
+- **Ross** - Refactored Source Code
 
 ---
 
