@@ -64,7 +64,7 @@ The following image shows the web application's appearance and functionality:
 
 
 ## Credits 
-- **Horiseon** Social Solution Services, Inc - Orignal Source Code
+- **Horiseon** - Social Solution Services, Inc - Orignal Source Code
 - **Ross** - Refactored Source Code
 
 ---
