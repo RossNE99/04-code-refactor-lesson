@@ -3,7 +3,7 @@
 ## Description
 This repository contains the source code for the Horiseon Marketing Agency website, which was supplied to us. Our mission was to enhance the webpage's user-friendliness, especially for users that require extra accessability options such as a screen reader or other computer aids.
 
-It's crucial to ensure that everyone, regardless of disability, can easily access and enjoy the internet, we want the internet to be a place where we can all enjoy! Not only that but having all the proper accessability options in place allows us to rank higher on the search engines results pages, that seems pretty important for a company that specialises in search engine optimisation 
+It's crucial to ensure that everyone, regardless of disability, can easily access and enjoy the internet. Our motovation is to make the internet a place where we can all enjoy! Not only that but having all the proper accessability options in place allows us to rank higher on the search engines results pages, that seems pretty important for a company that specialises in search engine optimisation 
 
  HTML and CSS are the backbone of every webpage, While HTML offers many features, this webpage initially lacked a focus on accessibility. To address this, we've utilized new semantic HTML5 elements and other techniques. Learn more in the [Features](#Features) section.
 
@@ -58,7 +58,7 @@ Visually looks the same as when I started however most of the changes I have mad
 
 The following image shows the web application's appearance and functionality:
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](Assets/HorinseonScreenshot.jpeg)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](Assets/images/HorinseonScreenshot.jpeg)
 
 > **Note**: This layout is designed for desktop viewing.
 
