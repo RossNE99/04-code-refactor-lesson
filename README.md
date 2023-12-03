@@ -5,7 +5,9 @@ This repository contains the source code for the Horiseon Marketing Agency websi
 
 It's crucial to ensure that everyone, regardless of disability, can easily access and enjoy the internet. Our motovation is to make the internet a place where we can all enjoy! Not only that but having all the proper accessability options in place allows us to rank higher on the search engines results pages, that seems pretty important for a company that specialises in search engine optimisation 
 
- HTML and CSS are the backbone of every webpage, While HTML offers many features, this webpage initially lacked a focus on accessibility. To address this, we've utilized new semantic HTML5 elements and other techniques. Learn more in the [Features](#Features) section.
+HTML and CSS are the backbone of every webpage, While HTML offers many features, this webpage initially lacked a focus on accessibility. To address this, we've utilized new semantic HTML5 elements and other techniques. Learn more in the [Features](#Features) section.
+
+During this project, I learned how to refactor existing HTML and CSS code to make the site more accessible for screen readers. i also learned about the following HTMl features; alt text for images, which provides a textual description of the image for screen readers and other assistive technologies. I also learned how to use semantic HTML elements, which are HTML tags that convey the meaning and structure of the content, rather than just its appearance. Semantic HTML elements help screen readers and other assistive technologies to navigate and understand the web page better.
 
 ## Table of Contents
 
