@@ -54,11 +54,6 @@ a {
     text-decoration: none; /* Remove default underline for links */
 }
 
-/* Styling for paragraphs */
-p {
-    font-size: 16px;
-}
-
 /* Styling for the hero image */
 .hero {
     height: 800px;
@@ -70,9 +65,44 @@ p {
     top: 96px; /* Offset to prevent content from overlapping with the fixed header when scrolled to the top of the page */
 }
 
+main {
+    display: inline;
+}
+
+/* Styling for the main content box */
+.mainContent {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 /* fixing image underlap pt 2*/
 .mainContent, .sidebar {
     margin-top: 92px; /* Add margin to the top of main content and sidebar to avoid overlap with the heroimage */
+}
+
+/* Styling for the section */
+section {
+    display: inline;
+}
+
+/* Styling for main content cards */
+.mainContentCard {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.mainContentCard img {
+    max-height: 200px; /* Set maximum height for images within main content cards */
+}
+
+.mainContentCard h2 {
+    margin-bottom: 20px;
+    font-size: 36px;  /* Set font size for main content card headings */
 }
 
 /* Float utility classes */
@@ -86,11 +116,9 @@ p {
     margin-left: 25px;
 }
 
-/* Styling for the main content box */
-.mainContent {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/* Styling for paragraphs and figcaption */
+p, figcaption {
+    font-size: 16px;
 }
 
 /* Styling for the sidebar */
@@ -122,25 +150,6 @@ p {
     max-width: 150px; /* Set maximum width for images within sidebar items */
 }
 
-/* Styling for main content cards */
-.mainContentCard {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.mainContentCard img {
-    max-height: 200px; /* Set maximum height for images within main content cards */
-}
-
-.mainContentCard h2 {
-    margin-bottom: 20px;
-    font-size: 36px;  /* Set font size for main content card headings */
-}
-
 /* Styling for the footer */
 footer {
     padding: 30px;
@@ -151,13 +160,4 @@ footer {
 
 footer h4 {
     font-size: 20px;
-}
-
-/* Additional semantic HTML5 elements */
-section {
-    display: inline;
-}
-
-main {
-    display: inline;
 }
