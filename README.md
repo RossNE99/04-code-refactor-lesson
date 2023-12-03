@@ -39,6 +39,7 @@ There is no special requirements for end users. Simply visit [here](https://gith
 - **Image Alt Text:** Image alt text: All images now have the alt attributes added to them, this will help with SEO and will be essential for users who require assistive technology.
 - **Improved HTML Structure:** Improved HTML Structure: Substituted generic container elements and class names with relevant semantic elements and appropriate class names.
 - **Page Headings:** Page Headings: All page titles and headings run in a logical, sequential order.
+- **fixed Navber:** fixed Navber: The navbar is now fixed to the top of the page this is useful for accessibility additionally all the links in the nav bar now work.
 
 ## How to contribute
 1. Fork this repository
