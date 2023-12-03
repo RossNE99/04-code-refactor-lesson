@@ -33,7 +33,7 @@ To get the development environment running:
 - `assets/images/`: Contains all images used in the webpage
 
 ## Enduser usage instructions
-There is no special requirements for end users. Simply visit [here](https://github.com/RossNE99/Horiseon-Code-Refactoring) to view the webpage. Enable your screen reader to explore accessability features.
+There is no special requirements for end users. Simply visit [here](https://rossne99.github.io/Horiseon-Marketing-Agency/) to view the webpage. Enable your screen reader to explore accessability features.
 
 ## Features
 - **Image Alt Text:** All images now have the alt attributes added to them, this will help with SEO and will be essential for users who require assistive technology.
